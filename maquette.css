@@ -1,0 +1,80 @@
+.container {
+    width: fit-content;
+    background-color: #24323d;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    width: 300px;
+}
+
+Input {
+    background-color: #24323d;
+    border: 3px solid rgba(247, 245, 245, 0.35);
+    padding: 5px 5px;
+}
+
+.btn1 {
+    background-color: #415057;
+    color: white;
+    cursor: pointer;
+    padding: 10px 0;
+    border: none;
+    width: 100%;
+}
+
+.btn1:focus {
+    background-color: #1ab188;
+}
+/* 
+.active {
+    background-color: #1ab188;
+} */
+
+h2 {
+    color: white;
+    font-style: italic;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+.Input1 {
+    width: 100%;
+    padding: 10px 4px;
+
+}
+
+.btn3 {
+    background-color: #1ab188;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px 3px;
+    font-size: 20px;
+}
+
+.Input2 {
+    padding: 10px 4px;
+}
+
+.input_group {
+    display: flex;
+    gap: 16px;
+}
+
+.buttons {
+    display: flex;
+}
